@@ -1,0 +1,154 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #315536;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: #b1b1b1;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #9282d8;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #b1b1b1;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #b1b1b1;
+    border-color: #b1b1b1;
+    background-color: #315536;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #b1b1b1;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #9282d8;
+    color: #242424;
+    fill: #242424;
+    border-color: #b1b1b1;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/forest1.jpg");
+    background-size: contain;
+    text-align: center;
+    color: #b1b1b1;
+    font-family:'Segoe UI', sans-serif;
+    padding-top: 25%;
+    padding-bottom: 10%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.jumb-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 30%;
+}
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #315536;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    color:#b1b1b1
+}
+
+.card:hover {
+    border-color: #9282d8;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-width: 100%;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #315536;
+}
+
+a:hover {
+    color: #9282d8;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f110e;
+    color: #b1b1b1;
+}
+
+.btn {
+    background-color: #0f110e;
+    color:#fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.btn-primary {
+    background-color: #0f110e;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.btn:hover {
+    background-color: #9282d8;
+}
+
+h3 {
+    padding-top: 10%;
+}
